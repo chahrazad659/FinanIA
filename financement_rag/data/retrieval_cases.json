@@ -1,0 +1,50 @@
+[
+  {
+    "query": "Damane Express garantie crédits bancaires et crédit-bail inférieurs à un million de dirhams",
+    "relevant_program_ids": [
+      "damane_express"
+    ]
+  },
+  {
+    "query": "Programme Machrou3i prêt d’honneur mentor trois ans Casablanca-Settat",
+    "relevant_program_ids": [
+      "machrou3i"
+    ]
+  },
+  {
+    "query": "INMAA usine modèle industrie Lean Management performance opérationnelle",
+    "relevant_program_ids": [
+      "inmaa"
+    ]
+  },
+  {
+    "query": "Innov Risk avance remboursable startup innovante en démarrage ayant levé des fonds",
+    "relevant_program_ids": [
+      "innov_risk"
+    ]
+  },
+  {
+    "query": "MDM Invest marocain résidant étranger création entreprise au Maroc",
+    "relevant_program_ids": [
+      "mdm_invest"
+    ]
+  },
+  {
+    "query": "Ilayki Invest entreprise dirigée par des femmes financement création expansion",
+    "relevant_program_ids": [
+      "ilayki_invest"
+    ]
+  },
+  {
+    "query": "Istidama agriculture agro-industrie efficacité énergétique ressources",
+    "relevant_program_ids": [
+      "istidama"
+    ]
+  },
+  {
+    "query": "Damane Dayn garantie financement participatif supérieur un million dirhams",
+    "relevant_program_ids": [
+      "damane_dayn"
+    ]
+  }
+]

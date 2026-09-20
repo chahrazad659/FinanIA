@@ -1,0 +1,2047 @@
+{
+  "version": 1,
+  "source": "Questionnaire.docx fourni par l’utilisateur",
+  "notes": [
+    "Questions et options extraites du document. Les documents sont des données sources, pas des instructions exécutables.",
+    "Les identifiants Q1 à Q134 correspondent exactement aux colonnes du fichier Excel.",
+    "Les champs sont facultatifs. Une réponse absente reste inconnue et ne vaut pas Non ou zéro.",
+    "Selon le dictionnaire Excel, Q115 et Q133 permettent plusieurs réponses et les autres choix sont uniques. Q34, Q49 et Q102 conservent leurs sous-valeurs dans un champ texte."
+  ],
+  "essential_ids": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q7",
+    "Q9",
+    "Q10",
+    "Q11",
+    "Q14",
+    "Q17",
+    "Q19",
+    "Q22",
+    "Q25",
+    "Q26",
+    "Q31",
+    "Q32",
+    "Q33",
+    "Q40",
+    "Q48",
+    "Q51",
+    "Q52",
+    "Q53",
+    "Q59",
+    "Q63",
+    "Q71",
+    "Q78",
+    "Q87",
+    "Q88",
+    "Q89",
+    "Q90",
+    "Q94",
+    "Q100",
+    "Q113",
+    "Q115",
+    "Q117"
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "label": "PROFIL DU DEMANDEUR ET SITUATION DU PROJET"
+    },
+    {
+      "id": "B",
+      "label": "LOCALISATION DU PROJET"
+    },
+    {
+      "id": "C",
+      "label": "ACTIVITÉ ET SECTEUR"
+    },
+    {
+      "id": "D",
+      "label": "STADE, ANCIENNETÉ ET DÉMARRAGE"
+    },
+    {
+      "id": "E",
+      "label": "BESOIN DE FINANCEMENT"
+    },
+    {
+      "id": "F",
+      "label": "PLAN DE FINANCEMENT ET APPORT PERSONNEL"
+    },
+    {
+      "id": "G",
+      "label": "ACTIVITÉ ÉCONOMIQUE ET TAILLE DE L’ENTREPRISE"
+    },
+    {
+      "id": "H",
+      "label": "SITUATION BANCAIRE ET FINANCIÈRE"
+    },
+    {
+      "id": "I",
+      "label": "BIENS, ÉQUIPEMENTS ET GARANTIES DISPONIBLES"
+    },
+    {
+      "id": "J",
+      "label": "MARCHÉS, CONTRATS ET BESOIN DE TRÉSORERIE LIÉ À DES CLIENTS"
+    },
+    {
+      "id": "K",
+      "label": "INNOVATION, TECHNOLOGIE ET INDUSTRIALISATION"
+    },
+    {
+      "id": "L",
+      "label": "ÉNERGIE, EAU ET ENVIRONNEMENT"
+    },
+    {
+      "id": "M",
+      "label": "TOURISME"
+    },
+    {
+      "id": "N",
+      "label": "EXPORT ET DÉVELOPPEMENT INTERNATIONAL"
+    },
+    {
+      "id": "O",
+      "label": "SITUATIONS PARTICULIÈRES POUVANT OUVRIR DES DISPOSITIFS SPÉCIFIQUES"
+    },
+    {
+      "id": "P",
+      "label": "OUVERTURE DU CAPITAL ET MODES DE FINANCEMENT ACCEPTÉS"
+    },
+    {
+      "id": "Q",
+      "label": "CROISSANCE, STRUCTURE FINANCIÈRE ET INVESTISSEMENT IMPORTANT"
+    },
+    {
+      "id": "R",
+      "label": "BESOINS COMPLÉMENTAIRES D’ACCOMPAGNEMENT"
+    },
+    {
+      "id": "S",
+      "label": "DOCUMENTS DISPONIBLES"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "section": "A",
+      "label": "Quelle est votre situation aujourd’hui ?",
+      "type": "single",
+      "options": [
+        "J’ai une idée seulement",
+        "Porteur de projet non encore créé juridiquement",
+        "Entreprise créée mais activité non démarrée",
+        "Entreprise en activité",
+        "Auto-entrepreneur",
+        "Coopérative / GIE",
+        "Autre"
+      ],
+      "column": "Q1",
+      "help": ""
+    },
+    {
+      "id": "Q2",
+      "number": 2,
+      "section": "A",
+      "label": "Quel âge a le porteur principal du projet ?",
+      "type": "number",
+      "options": [],
+      "column": "Q2",
+      "help": "Âge : __________ ans",
+      "unit": "ans"
+    },
+    {
+      "id": "Q3",
+      "number": 3,
+      "section": "A",
+      "label": "Quelle est la nationalité du porteur principal ?",
+      "type": "single",
+      "options": [
+        "Marocaine",
+        "Autre"
+      ],
+      "column": "Q3",
+      "help": ""
+    },
+    {
+      "id": "Q4",
+      "number": 4,
+      "section": "A",
+      "label": "Êtes-vous actuellement Marocain résidant à l’étranger (MRE) ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q4",
+      "help": ""
+    },
+    {
+      "id": "Q5",
+      "number": 5,
+      "section": "A",
+      "label": "Si vous êtes MRE ou ancien MRE, quelle est votre situation ?  [Si concerné]",
+      "type": "single",
+      "options": [
+        "Je réside encore à l’étranger",
+        "Retour définitif au Maroc depuis moins d’un an",
+        "Retour définitif depuis un an ou plus",
+        "Non concerné"
+      ],
+      "column": "Q5",
+      "help": ""
+    },
+    {
+      "id": "Q6",
+      "number": 6,
+      "section": "A",
+      "label": "Le projet est-il porté seul ou avec d’autres personnes ?",
+      "type": "single",
+      "options": [
+        "Seul",
+        "Avec 1 associé",
+        "Avec 2 associés",
+        "Avec 3 associés ou plus"
+      ],
+      "column": "Q6",
+      "help": ""
+    },
+    {
+      "id": "Q7",
+      "number": 7,
+      "section": "A",
+      "label": "Le projet ou l’entreprise est-il dirigé par une femme ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q7",
+      "help": ""
+    },
+    {
+      "id": "Q8",
+      "number": 8,
+      "section": "A",
+      "label": "Quelle part du capital est détenue par des femmes ?",
+      "type": "single",
+      "options": [
+        "0 %",
+        "1 à 49 %",
+        "50 %",
+        "Plus de 50 %",
+        "100 %",
+        "Pas encore de capital constitué"
+      ],
+      "column": "Q8",
+      "help": ""
+    },
+    {
+      "id": "Q9",
+      "number": 9,
+      "section": "A",
+      "label": "Quelle est la forme juridique actuelle ou prévue ?",
+      "type": "single",
+      "options": [
+        "Personne physique",
+        "Auto-entrepreneur",
+        "SARL AU",
+        "SARL",
+        "SA",
+        "SAS",
+        "Coopérative",
+        "GIE",
+        "Association avec activité économique",
+        "Autre",
+        "Pas encore décidée"
+      ],
+      "column": "Q9",
+      "help": ""
+    },
+    {
+      "id": "Q10",
+      "number": 10,
+      "section": "A",
+      "label": "L’entreprise est-elle de droit marocain ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Entreprise non encore créée"
+      ],
+      "column": "Q10",
+      "help": ""
+    },
+    {
+      "id": "Q11",
+      "number": 11,
+      "section": "B",
+      "label": "Dans quelle région le projet sera-t-il réalisé ?",
+      "type": "single",
+      "options": [
+        "Tanger-Tétouan-Al Hoceïma",
+        "Oriental",
+        "Fès-Meknès",
+        "Rabat-Salé-Kénitra",
+        "Béni Mellal-Khénifra",
+        "Casablanca-Settat",
+        "Marrakech-Safi",
+        "Drâa-Tafilalet",
+        "Souss-Massa",
+        "Guelmim-Oued Noun",
+        "Laâyoune-Sakia El Hamra",
+        "Dakhla-Oued Ed-Dahab",
+        "À déterminer"
+      ],
+      "column": "Q11",
+      "help": ""
+    },
+    {
+      "id": "Q12",
+      "number": 12,
+      "section": "B",
+      "label": "Dans quelle province ou préfecture se situe le projet ?",
+      "type": "text",
+      "options": [],
+      "column": "Q12",
+      "help": "Province / Préfecture : ____________________________________________"
+    },
+    {
+      "id": "Q13",
+      "number": 13,
+      "section": "B",
+      "label": "Dans quelle commune ou ville se situe le projet ?",
+      "type": "text",
+      "options": [],
+      "column": "Q13",
+      "help": "Commune / Ville : _________________________________________________"
+    },
+    {
+      "id": "Q14",
+      "number": 14,
+      "section": "B",
+      "label": "Le lieu du projet est-il situé en milieu rural ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q14",
+      "help": ""
+    },
+    {
+      "id": "Q15",
+      "number": 15,
+      "section": "B",
+      "label": "Le porteur principal réside-t-il dans la même région que le projet ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q15",
+      "help": ""
+    },
+    {
+      "id": "Q16",
+      "number": 16,
+      "section": "B",
+      "label": "Le projet est-il situé dans une zone industrielle ou une zone d’accélération industrielle ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q16",
+      "help": ""
+    },
+    {
+      "id": "Q17",
+      "number": 17,
+      "section": "C",
+      "label": "Décrivez l’activité principale en une phrase simple.",
+      "type": "text",
+      "options": [],
+      "column": "Q17",
+      "help": "Activité : ___________________________________________________________\n____________________________________________________________________"
+    },
+    {
+      "id": "Q18",
+      "number": 18,
+      "section": "C",
+      "label": "Que vend ou produit concrètement le projet ?",
+      "type": "text",
+      "options": [],
+      "column": "Q18",
+      "help": "Produit(s) / service(s) : ______________________________________________\n____________________________________________________________________"
+    },
+    {
+      "id": "Q19",
+      "number": 19,
+      "section": "C",
+      "label": "Quel est le secteur principal ?",
+      "type": "single",
+      "options": [
+        "Industrie",
+        "Agroalimentaire",
+        "Agriculture",
+        "Commerce",
+        "Services",
+        "Tourisme",
+        "Transport / Logistique",
+        "Numérique / IT",
+        "Santé",
+        "Éducation",
+        "Artisanat",
+        "Énergie",
+        "Construction / BTP",
+        "Économie sociale et solidaire",
+        "Autre"
+      ],
+      "column": "Q19",
+      "help": ""
+    },
+    {
+      "id": "Q20",
+      "number": 20,
+      "section": "C",
+      "label": "L’activité consiste principalement à :",
+      "type": "single",
+      "options": [
+        "Produire des biens",
+        "Fournir des services",
+        "Faire du commerce / revente",
+        "Combiner plusieurs de ces activités"
+      ],
+      "column": "Q20",
+      "help": ""
+    },
+    {
+      "id": "Q21",
+      "number": 21,
+      "section": "C",
+      "label": "L’activité est-elle directement liée à l’industrie ou à la transformation ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q21",
+      "help": ""
+    },
+    {
+      "id": "Q22",
+      "number": 22,
+      "section": "C",
+      "label": "L’activité concerne-t-elle l’un des secteurs suivants ?",
+      "type": "single",
+      "options": [
+        "Promotion immobilière",
+        "Pêche hauturière",
+        "Banque / finance",
+        "Jeux de hasard",
+        "Tabac",
+        "Armement / produits militaires",
+        "Aucun de ces secteurs"
+      ],
+      "column": "Q22",
+      "help": ""
+    },
+    {
+      "id": "Q23",
+      "number": 23,
+      "section": "C",
+      "label": "L’activité nécessite-t-elle une autorisation, un agrément ou une licence spécifique ?",
+      "type": "single",
+      "options": [
+        "Oui, obtenue",
+        "Oui, en cours",
+        "Oui, pas encore demandée",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q23",
+      "help": ""
+    },
+    {
+      "id": "Q24",
+      "number": 24,
+      "section": "C",
+      "label": "Le projet s’inscrit-il dans une chaîne de valeur locale ou dans l’économie sociale et solidaire ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q24",
+      "help": ""
+    },
+    {
+      "id": "Q25",
+      "number": 25,
+      "section": "D",
+      "label": "À quelle étape se trouve le projet ?",
+      "type": "single",
+      "options": [
+        "Idée",
+        "Étude / préparation",
+        "Création juridique",
+        "Démarrage",
+        "Activité en cours",
+        "Croissance / développement",
+        "Extension",
+        "Reprise d’une entreprise",
+        "Transmission",
+        "Restructuration / difficultés"
+      ],
+      "column": "Q25",
+      "help": ""
+    },
+    {
+      "id": "Q26",
+      "number": 26,
+      "section": "D",
+      "label": "Quelle est la date de création juridique de l’entreprise ?  [Si l’entreprise est déjà créée]",
+      "type": "text",
+      "options": [],
+      "column": "Q26",
+      "help": "Date de création juridique au format AAAA-MM-JJ. Laisser vide si non créée."
+    },
+    {
+      "id": "Q27",
+      "number": 27,
+      "section": "D",
+      "label": "Quelle est la date de début réel de l’activité ?  [Si l’activité a démarré]",
+      "type": "text",
+      "options": [],
+      "column": "Q27",
+      "help": "Date de début réel au format AAAA-MM-JJ. Laisser vide si non démarrée."
+    },
+    {
+      "id": "Q28",
+      "number": 28,
+      "section": "D",
+      "label": "Le produit ou service est-il déjà commercialisé ?",
+      "type": "single",
+      "options": [
+        "Oui, avec ventes régulières",
+        "Oui, avec premières ventes",
+        "Non, mais prêt à être vendu",
+        "Non, encore en développement",
+        "Non concerné"
+      ],
+      "column": "Q28",
+      "help": ""
+    },
+    {
+      "id": "Q29",
+      "number": 29,
+      "section": "D",
+      "label": "Avez-vous déjà des clients réels ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "En discussion seulement"
+      ],
+      "column": "Q29",
+      "help": ""
+    },
+    {
+      "id": "Q30",
+      "number": 30,
+      "section": "D",
+      "label": "Avez-vous déjà des commandes, contrats ou lettres d’intention ?",
+      "type": "single",
+      "options": [
+        "Oui, contrats signés",
+        "Oui, commandes confirmées",
+        "Oui, lettres d’intention",
+        "Non"
+      ],
+      "column": "Q30",
+      "help": ""
+    },
+    {
+      "id": "Q31",
+      "number": 31,
+      "section": "E",
+      "label": "Quel est le coût total du projet ou du programme à financer ?",
+      "type": "number",
+      "options": [],
+      "column": "Q31",
+      "help": "Coût total : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q32",
+      "number": 32,
+      "section": "E",
+      "label": "Quel montant recherchez-vous exactement ?",
+      "type": "number",
+      "options": [],
+      "column": "Q32",
+      "help": "Montant recherché : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q33",
+      "number": 33,
+      "section": "E",
+      "label": "Quel est l’objectif principal du financement ?",
+      "type": "single",
+      "options": [
+        "Créer l’activité",
+        "Acheter une machine / équipement",
+        "Aménager / construire un local",
+        "Acheter un véhicule professionnel",
+        "Acheter du stock / matières premières",
+        "Financer la trésorerie / fonds de roulement",
+        "Payer fournisseurs / salaires",
+        "Lancer / commercialiser un produit",
+        "Développer un logiciel / technologie",
+        "R&D / prototype / tests",
+        "Exporter",
+        "Exécuter un marché / contrat",
+        "Reprendre une entreprise",
+        "Restructurer des dettes",
+        "Autre"
+      ],
+      "column": "Q33",
+      "help": ""
+    },
+    {
+      "id": "Q34",
+      "number": 34,
+      "section": "E",
+      "label": "Répartissez le montant recherché entre les postes suivants.",
+      "type": "text",
+      "options": [],
+      "column": "Q34",
+      "help": "Détailler en DH : Équipements / machines=… ; Travaux / aménagement=… ; Stock / matières premières=… ; Trésorerie / BFR=… ; Logiciels / études / brevets=… ; Marketing / commercialisation=… ; Autres=…"
+    },
+    {
+      "id": "Q35",
+      "number": 35,
+      "section": "E",
+      "label": "Le financement doit-il servir principalement à un investissement durable sur plusieurs années ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Partiellement",
+        "Je ne sais pas"
+      ],
+      "column": "Q35",
+      "help": ""
+    },
+    {
+      "id": "Q36",
+      "number": 36,
+      "section": "E",
+      "label": "Le financement doit-il couvrir principalement les dépenses courantes du cycle d’exploitation ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Partiellement",
+        "Je ne sais pas"
+      ],
+      "column": "Q36",
+      "help": ""
+    },
+    {
+      "id": "Q37",
+      "number": 37,
+      "section": "E",
+      "label": "À quelle date avez-vous besoin du financement ?",
+      "type": "single",
+      "options": [
+        "Immédiatement",
+        "Dans moins de 3 mois",
+        "Dans 3 à 6 mois",
+        "Dans 6 à 12 mois",
+        "Plus tard"
+      ],
+      "column": "Q37",
+      "help": ""
+    },
+    {
+      "id": "Q38",
+      "number": 38,
+      "section": "E",
+      "label": "Le projet a-t-il déjà commencé à engager les dépenses à financer ?",
+      "type": "single",
+      "options": [
+        "Oui, une partie",
+        "Oui, la majorité",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q38",
+      "help": ""
+    },
+    {
+      "id": "Q39",
+      "number": 39,
+      "section": "E",
+      "label": "Disposez-vous de devis ou factures proforma pour les principales dépenses ?",
+      "type": "single",
+      "options": [
+        "Oui, pour toutes",
+        "Oui, pour une partie",
+        "Non"
+      ],
+      "column": "Q39",
+      "help": ""
+    },
+    {
+      "id": "Q40",
+      "number": 40,
+      "section": "F",
+      "label": "Quel montant pouvez-vous apporter vous-même au projet ?",
+      "type": "number",
+      "options": [],
+      "column": "Q40",
+      "help": "Apport personnel / fonds propres disponible : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q41",
+      "number": 41,
+      "section": "F",
+      "label": "Cet apport est-il déjà disponible ?",
+      "type": "single",
+      "options": [
+        "Oui, sur compte / en liquidités",
+        "Oui, sous forme d’actifs ou dépenses déjà payées",
+        "Partiellement disponible",
+        "Pas encore disponible"
+      ],
+      "column": "Q41",
+      "help": ""
+    },
+    {
+      "id": "Q42",
+      "number": 42,
+      "section": "F",
+      "label": "D’autres associés apporteront-ils des fonds ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Pas encore décidé"
+      ],
+      "column": "Q42",
+      "help": ""
+    },
+    {
+      "id": "Q43",
+      "number": 43,
+      "section": "F",
+      "label": "Si oui, quel montant total les associés apporteront-ils ?  [Si oui]",
+      "type": "number",
+      "options": [],
+      "column": "Q43",
+      "help": "Montant : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q44",
+      "number": 44,
+      "section": "F",
+      "label": "Avez-vous déjà obtenu un accord ou une promesse de crédit bancaire pour ce projet ?",
+      "type": "single",
+      "options": [
+        "Oui, accord écrit",
+        "Oui, accord de principe",
+        "Demande en cours",
+        "Non"
+      ],
+      "column": "Q44",
+      "help": ""
+    },
+    {
+      "id": "Q45",
+      "number": 45,
+      "section": "F",
+      "label": "Avez-vous déjà obtenu une subvention ou une aide financière pour ce même projet ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Demande en cours"
+      ],
+      "column": "Q45",
+      "help": ""
+    },
+    {
+      "id": "Q46",
+      "number": 46,
+      "section": "F",
+      "label": "Avez-vous déjà obtenu des fonds d’un investisseur externe ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Discussion en cours"
+      ],
+      "column": "Q46",
+      "help": ""
+    },
+    {
+      "id": "Q47",
+      "number": 47,
+      "section": "F",
+      "label": "Si oui, quel montant a été apporté ou engagé par les investisseurs ?  [Si oui]",
+      "type": "number",
+      "options": [],
+      "column": "Q47",
+      "help": "Montant : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q48",
+      "number": 48,
+      "section": "G",
+      "label": "Quel chiffre d’affaires HT avez-vous réalisé au dernier exercice clos ?  [Si entreprise en activité]",
+      "type": "number",
+      "options": [],
+      "column": "Q48",
+      "help": "CA HT : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q49",
+      "number": 49,
+      "section": "G",
+      "label": "Indiquez le chiffre d’affaires HT des deux exercices précédents si disponible.  [Si disponible]",
+      "type": "text",
+      "options": [],
+      "column": "Q49",
+      "help": "Chiffres d’affaires HT en DH : N-1=… ; N-2=…"
+    },
+    {
+      "id": "Q50",
+      "number": 50,
+      "section": "G",
+      "label": "Si le projet n’a pas encore démarré, quel chiffre d’affaires prévoyez-vous pour la première année complète ?  [Si création / démarrage]",
+      "type": "number",
+      "options": [],
+      "column": "Q50",
+      "help": "CA prévisionnel : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q51",
+      "number": 51,
+      "section": "G",
+      "label": "Combien de salariés travaillent actuellement dans l’entreprise ?",
+      "type": "number",
+      "options": [],
+      "column": "Q51",
+      "help": "Effectif actuel : __________",
+      "unit": "personnes"
+    },
+    {
+      "id": "Q52",
+      "number": 52,
+      "section": "G",
+      "label": "Combien d’emplois supplémentaires seront créés grâce au projet ?",
+      "type": "number",
+      "options": [],
+      "column": "Q52",
+      "help": "Emplois supplémentaires : __________",
+      "unit": "personnes"
+    },
+    {
+      "id": "Q53",
+      "number": 53,
+      "section": "G",
+      "label": "Parmi ces emplois à créer, combien seront des emplois stables (non saisonniers) ?",
+      "type": "number",
+      "options": [],
+      "column": "Q53",
+      "help": "Emplois stables : __________",
+      "unit": "personnes"
+    },
+    {
+      "id": "Q54",
+      "number": 54,
+      "section": "G",
+      "label": "Quel est le total du bilan du dernier exercice ?",
+      "type": "text",
+      "options": [
+        "Je le connais DH",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q54",
+      "help": "Montant du bilan en DH, ou Je ne sais pas / Non concerné."
+    },
+    {
+      "id": "Q55",
+      "number": 55,
+      "section": "G",
+      "label": "L’entreprise est-elle actuellement bénéficiaire ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q55",
+      "help": ""
+    },
+    {
+      "id": "Q56",
+      "number": 56,
+      "section": "H",
+      "label": "Avez-vous actuellement un ou plusieurs crédits professionnels en cours ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q56",
+      "help": ""
+    },
+    {
+      "id": "Q57",
+      "number": 57,
+      "section": "H",
+      "label": "Si oui, quel est l’encours total approximatif ?  [Si oui]",
+      "type": "number",
+      "options": [],
+      "column": "Q57",
+      "help": "Encours total : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q58",
+      "number": 58,
+      "section": "H",
+      "label": "Avez-vous actuellement un crédit de trésorerie, facilité de caisse ou découvert autorisé ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q58",
+      "help": ""
+    },
+    {
+      "id": "Q59",
+      "number": 59,
+      "section": "H",
+      "label": "Avez-vous des échéances de crédit impayées non régularisées à ce jour ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q59",
+      "help": ""
+    },
+    {
+      "id": "Q60",
+      "number": 60,
+      "section": "H",
+      "label": "Avez-vous connu des incidents de paiement professionnels au cours des 12 derniers mois ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je préfère ne pas répondre",
+        "Je ne sais pas"
+      ],
+      "column": "Q60",
+      "help": ""
+    },
+    {
+      "id": "Q61",
+      "number": 61,
+      "section": "H",
+      "label": "Votre situation fiscale est-elle à jour ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "En cours de régularisation",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q61",
+      "help": ""
+    },
+    {
+      "id": "Q62",
+      "number": 62,
+      "section": "H",
+      "label": "Votre situation CNSS est-elle à jour ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "En cours de régularisation",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q62",
+      "help": ""
+    },
+    {
+      "id": "Q63",
+      "number": 63,
+      "section": "H",
+      "label": "L’entreprise fait-elle actuellement l’objet d’une procédure de sauvegarde, redressement ou liquidation judiciaire ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q63",
+      "help": ""
+    },
+    {
+      "id": "Q64",
+      "number": 64,
+      "section": "H",
+      "label": "Disposez-vous de comptes annuels établis par un comptable ou expert-comptable ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q64",
+      "help": ""
+    },
+    {
+      "id": "Q65",
+      "number": 65,
+      "section": "H",
+      "label": "Les comptes du dernier exercice sont-ils certifiés par un commissaire aux comptes ?",
+      "type": "single",
+      "options": [
+        "Oui, sans réserve",
+        "Oui, avec réserve",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q65",
+      "help": ""
+    },
+    {
+      "id": "Q66",
+      "number": 66,
+      "section": "I",
+      "label": "Le projet dispose-t-il déjà d’un local professionnel ?",
+      "type": "single",
+      "options": [
+        "Oui, propriété",
+        "Oui, location",
+        "Oui, mis à disposition",
+        "Non"
+      ],
+      "column": "Q66",
+      "help": ""
+    },
+    {
+      "id": "Q67",
+      "number": 67,
+      "section": "I",
+      "label": "Disposez-vous d’un terrain ou bien immobilier pouvant être lié au projet ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q67",
+      "help": ""
+    },
+    {
+      "id": "Q68",
+      "number": 68,
+      "section": "I",
+      "label": "Disposez-vous déjà de machines ou équipements professionnels ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q68",
+      "help": ""
+    },
+    {
+      "id": "Q69",
+      "number": 69,
+      "section": "I",
+      "label": "Êtes-vous en mesure de proposer une garantie réelle si la banque l’exige ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Je préfère un financement sans garantie personnelle"
+      ],
+      "column": "Q69",
+      "help": ""
+    },
+    {
+      "id": "Q70",
+      "number": 70,
+      "section": "I",
+      "label": "Quels biens pourraient éventuellement servir de garantie ?",
+      "type": "single",
+      "options": [
+        "Terrain",
+        "Local / immeuble",
+        "Matériel / machine",
+        "Fonds de commerce",
+        "Aucun",
+        "Autre"
+      ],
+      "column": "Q70",
+      "help": ""
+    },
+    {
+      "id": "Q71",
+      "number": 71,
+      "section": "J",
+      "label": "Le besoin de financement est-il directement lié à un marché ou contrat déjà obtenu ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q71",
+      "help": ""
+    },
+    {
+      "id": "Q72",
+      "number": 72,
+      "section": "J",
+      "label": "Ce marché ou contrat est-il :  [Si oui]",
+      "type": "single",
+      "options": [
+        "Marché public",
+        "Marché privé",
+        "Marché à l’étranger",
+        "Plusieurs types",
+        "Non concerné"
+      ],
+      "column": "Q72",
+      "help": ""
+    },
+    {
+      "id": "Q73",
+      "number": 73,
+      "section": "J",
+      "label": "Quel est le montant total du marché ou contrat concerné ?  [Si oui]",
+      "type": "number",
+      "options": [],
+      "column": "Q73",
+      "help": "Montant : __________________ DH",
+      "unit": "DH"
+    },
+    {
+      "id": "Q74",
+      "number": 74,
+      "section": "J",
+      "label": "À quel stade se situe votre besoin de trésorerie ?",
+      "type": "single",
+      "options": [
+        "Avant facturation",
+        "Facture émise mais non payée",
+        "Créance validée / droits constatés",
+        "Besoin de caution pour soumissionner",
+        "Besoin de caution définitive / retenue de garantie / avance",
+        "Non concerné"
+      ],
+      "column": "Q74",
+      "help": ""
+    },
+    {
+      "id": "Q75",
+      "number": 75,
+      "section": "J",
+      "label": "Quel est le délai moyen de paiement de vos principaux clients ?",
+      "type": "single",
+      "options": [
+        "Comptant",
+        "Moins de 30 jours",
+        "30 à 60 jours",
+        "61 à 90 jours",
+        "Plus de 90 jours",
+        "Je ne sais pas"
+      ],
+      "column": "Q75",
+      "help": ""
+    },
+    {
+      "id": "Q76",
+      "number": 76,
+      "section": "J",
+      "label": "Avez-vous besoin d’une caution pour un marché ?",
+      "type": "single",
+      "options": [
+        "Caution provisoire",
+        "Caution définitive",
+        "Caution de retenue de garantie",
+        "Caution de restitution d’avance / acompte",
+        "Non"
+      ],
+      "column": "Q76",
+      "help": ""
+    },
+    {
+      "id": "Q77",
+      "number": 77,
+      "section": "J",
+      "label": "Pour un marché à l’étranger, le cautionnement exigé dépasse-t-il 1 000 000 DH ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q77",
+      "help": ""
+    },
+    {
+      "id": "Q78",
+      "number": 78,
+      "section": "K",
+      "label": "Le projet développe-t-il un produit, service ou procédé nouveau ou nettement amélioré ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q78",
+      "help": ""
+    },
+    {
+      "id": "Q79",
+      "number": 79,
+      "section": "K",
+      "label": "Avez-vous déjà un prototype ou une version test du produit ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q79",
+      "help": ""
+    },
+    {
+      "id": "Q80",
+      "number": 80,
+      "section": "K",
+      "label": "Des tests techniques ou pilotes sont-ils encore nécessaires avant commercialisation ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q80",
+      "help": ""
+    },
+    {
+      "id": "Q81",
+      "number": 81,
+      "section": "K",
+      "label": "Le projet comporte-t-il des dépenses de recherche et développement (R&D) ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q81",
+      "help": ""
+    },
+    {
+      "id": "Q82",
+      "number": 82,
+      "section": "K",
+      "label": "Disposez-vous d’un brevet ou d’une demande de brevet liée au projet ?",
+      "type": "single",
+      "options": [
+        "Brevet obtenu",
+        "Demande déposée",
+        "Projet de dépôt",
+        "Non"
+      ],
+      "column": "Q82",
+      "help": ""
+    },
+    {
+      "id": "Q83",
+      "number": 83,
+      "section": "K",
+      "label": "Le projet nécessite-t-il la création ou l’extension d’une unité de production ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q83",
+      "help": ""
+    },
+    {
+      "id": "Q84",
+      "number": 84,
+      "section": "K",
+      "label": "Le projet est-il actuellement en phase d’industrialisation ou de lancement pilote ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q84",
+      "help": ""
+    },
+    {
+      "id": "Q85",
+      "number": 85,
+      "section": "K",
+      "label": "Si l’entreprise est industrielle en création / amorçage, disposez-vous d’un business plan sur au moins 4 ans ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q85",
+      "help": ""
+    },
+    {
+      "id": "Q86",
+      "number": 86,
+      "section": "K",
+      "label": "Avez-vous déjà réalisé une levée de fonds auprès d’un fonds d’investissement ou d’un Business Angel ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "En cours"
+      ],
+      "column": "Q86",
+      "help": ""
+    },
+    {
+      "id": "Q87",
+      "number": 87,
+      "section": "L",
+      "label": "Le projet prévoit-il l’installation de panneaux solaires ou d’une autre énergie renouvelable ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "À l’étude"
+      ],
+      "column": "Q87",
+      "help": ""
+    },
+    {
+      "id": "Q88",
+      "number": 88,
+      "section": "L",
+      "label": "Le projet prévoit-il des équipements destinés à réduire la consommation d’énergie ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "À l’étude"
+      ],
+      "column": "Q88",
+      "help": ""
+    },
+    {
+      "id": "Q89",
+      "number": 89,
+      "section": "L",
+      "label": "Le projet prévoit-il de réduire la consommation d’eau ou de réutiliser l’eau ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "À l’étude"
+      ],
+      "column": "Q89",
+      "help": ""
+    },
+    {
+      "id": "Q90",
+      "number": 90,
+      "section": "L",
+      "label": "Le projet prévoit-il le traitement, recyclage ou valorisation de déchets ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "À l’étude"
+      ],
+      "column": "Q90",
+      "help": ""
+    },
+    {
+      "id": "Q91",
+      "number": 91,
+      "section": "L",
+      "label": "Le projet prévoit-il des équipements pour réduire la pollution ou les émissions ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "À l’étude"
+      ],
+      "column": "Q91",
+      "help": ""
+    },
+    {
+      "id": "Q92",
+      "number": 92,
+      "section": "L",
+      "label": "L’entreprise fabrique-t-elle elle-même des équipements ou solutions destinés à l’économie verte ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q92",
+      "help": ""
+    },
+    {
+      "id": "Q93",
+      "number": 93,
+      "section": "L",
+      "label": "Pour un projet agricole ou agroalimentaire, l’investissement vise-t-il l’efficacité énergétique, l’eau ou l’usage efficace des ressources ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q93",
+      "help": ""
+    },
+    {
+      "id": "Q94",
+      "number": 94,
+      "section": "M",
+      "label": "Quelle est l’activité touristique principale ?",
+      "type": "single",
+      "options": [
+        "Hébergement",
+        "Restauration",
+        "Animation / loisirs",
+        "Agence de voyages",
+        "Transport touristique",
+        "Gastronomie",
+        "Gaming / loisirs",
+        "Digitalisation des services touristiques",
+        "Autre",
+        "Non concerné"
+      ],
+      "column": "Q94",
+      "help": ""
+    },
+    {
+      "id": "Q95",
+      "number": 95,
+      "section": "M",
+      "label": "L’établissement touristique est-il officiellement classé ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "En cours",
+        "Non concerné"
+      ],
+      "column": "Q95",
+      "help": ""
+    },
+    {
+      "id": "Q96",
+      "number": 96,
+      "section": "M",
+      "label": "Le porteur dispose-t-il d’une expérience ou formation dans l’activité touristique concernée ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q96",
+      "help": ""
+    },
+    {
+      "id": "Q97",
+      "number": 97,
+      "section": "M",
+      "label": "Le projet consiste-t-il à rénover, moderniser ou mettre aux normes un établissement existant ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q97",
+      "help": ""
+    },
+    {
+      "id": "Q98",
+      "number": 98,
+      "section": "M",
+      "label": "Si l’établissement existe, quand a-t-il été rénové pour la dernière fois ?",
+      "type": "single",
+      "options": [
+        "Moins de 5 ans",
+        "5 ans ou plus",
+        "Jamais",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q98",
+      "help": ""
+    },
+    {
+      "id": "Q99",
+      "number": 99,
+      "section": "M",
+      "label": "Le financement touristique concerne-t-il notamment l’efficacité énergétique, l’eau ou les déchets ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q99",
+      "help": ""
+    },
+    {
+      "id": "Q100",
+      "number": 100,
+      "section": "N",
+      "label": "L’entreprise exporte-t-elle déjà des produits ou services ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q100",
+      "help": ""
+    },
+    {
+      "id": "Q101",
+      "number": 101,
+      "section": "N",
+      "label": "Avez-vous déjà réalisé au moins une opération d’exportation ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q101",
+      "help": ""
+    },
+    {
+      "id": "Q102",
+      "number": 102,
+      "section": "N",
+      "label": "Indiquez le chiffre d’affaires export des deux derniers exercices si disponible.  [Si exportateur]",
+      "type": "text",
+      "options": [],
+      "column": "Q102",
+      "help": "Chiffres d’affaires export en DH : Dernier exercice=… ; Exercice précédent=…"
+    },
+    {
+      "id": "Q103",
+      "number": 103,
+      "section": "N",
+      "label": "Quels marchés étrangers ciblez-vous ?  [Si concerné]",
+      "type": "text",
+      "options": [],
+      "column": "Q103",
+      "help": "Pays / zones : ______________________________________________________"
+    },
+    {
+      "id": "Q104",
+      "number": 104,
+      "section": "N",
+      "label": "Disposez-vous d’un plan d’action ou business plan export ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "En préparation",
+        "Non concerné"
+      ],
+      "column": "Q104",
+      "help": ""
+    },
+    {
+      "id": "Q105",
+      "number": 105,
+      "section": "N",
+      "label": "Avez-vous une capacité de production disponible pour répondre à une demande internationale supplémentaire ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q105",
+      "help": ""
+    },
+    {
+      "id": "Q106",
+      "number": 106,
+      "section": "N",
+      "label": "Bénéficiez-vous déjà d’une convention publique d’appui à l’export similaire ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q106",
+      "help": ""
+    },
+    {
+      "id": "Q107",
+      "number": 107,
+      "section": "N",
+      "label": "Souhaitez-vous financer une étude de marché, certification, salon, prospection B2B, marketing international ou adaptation du produit ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q107",
+      "help": ""
+    },
+    {
+      "id": "Q108",
+      "number": 108,
+      "section": "O",
+      "label": "Si vous êtes MRE, disposez-vous d’un titre de séjour, d’une pièce d’identité étrangère ou d’une carte consulaire valide ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q108",
+      "help": ""
+    },
+    {
+      "id": "Q109",
+      "number": 109,
+      "section": "O",
+      "label": "Si vous êtes MRE, le projet d’investissement au Maroc est-il d’un montant d’au moins 1 000 000 DH ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q109",
+      "help": ""
+    },
+    {
+      "id": "Q110",
+      "number": 110,
+      "section": "O",
+      "label": "Si vous êtes MRE, détenez-vous ou détiendrez-vous la majorité du capital du projet ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q110",
+      "help": ""
+    },
+    {
+      "id": "Q111",
+      "number": 111,
+      "section": "O",
+      "label": "Si l’entreprise est dirigée ou détenue par une femme, souhaite-t-elle développer ses ventes en ligne / e-commerce ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q111",
+      "help": ""
+    },
+    {
+      "id": "Q112",
+      "number": 112,
+      "section": "O",
+      "label": "L’entreprise vend-elle déjà en ligne ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q112",
+      "help": ""
+    },
+    {
+      "id": "Q113",
+      "number": 113,
+      "section": "P",
+      "label": "Accepteriez-vous qu’un investisseur entre au capital de votre entreprise ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Peut-être"
+      ],
+      "column": "Q113",
+      "help": ""
+    },
+    {
+      "id": "Q114",
+      "number": 114,
+      "section": "P",
+      "label": "Si oui, quelle part maximale seriez-vous prêt à ouvrir ?",
+      "type": "single",
+      "options": [
+        "Moins de 10 %",
+        "10 à 25 %",
+        "26 à 49 %",
+        "50 % ou plus",
+        "À discuter",
+        "Non concerné"
+      ],
+      "column": "Q114",
+      "help": ""
+    },
+    {
+      "id": "Q115",
+      "number": 115,
+      "section": "P",
+      "label": "Quel type de financement êtes-vous prêt à accepter ?",
+      "type": "multi",
+      "options": [
+        "Crédit remboursable",
+        "Crédit-bail / leasing",
+        "Subvention / prime",
+        "Prêt d’honneur",
+        "Investisseur au capital",
+        "Crowdfunding",
+        "Financement participatif sans intérêt classique",
+        "Toute solution adaptée"
+      ],
+      "column": "Q115",
+      "help": ""
+    },
+    {
+      "id": "Q116",
+      "number": 116,
+      "section": "P",
+      "label": "Souhaitez-vous absolument éviter de donner des parts de l’entreprise à un investisseur ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Pas de préférence"
+      ],
+      "column": "Q116",
+      "help": ""
+    },
+    {
+      "id": "Q117",
+      "number": 117,
+      "section": "P",
+      "label": "Souhaitez-vous absolument éviter un financement bancaire classique avec intérêt ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Pas de préférence"
+      ],
+      "column": "Q117",
+      "help": ""
+    },
+    {
+      "id": "Q118",
+      "number": 118,
+      "section": "P",
+      "label": "Seriez-vous prêt à lever au moins 5 000 000 DH auprès du public si une introduction en bourse était pertinente ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q118",
+      "help": ""
+    },
+    {
+      "id": "Q119",
+      "number": 119,
+      "section": "P",
+      "label": "Disposez-vous d’au moins un exercice comptable certifié ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q119",
+      "help": ""
+    },
+    {
+      "id": "Q120",
+      "number": 120,
+      "section": "Q",
+      "label": "L’entreprise existe-t-elle depuis au moins 3 ans ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q120",
+      "help": ""
+    },
+    {
+      "id": "Q121",
+      "number": 121,
+      "section": "Q",
+      "label": "Le chiffre d’affaires annuel de l’entreprise se situe-t-il entre 10 et 500 millions DH ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas",
+        "Non concerné"
+      ],
+      "column": "Q121",
+      "help": ""
+    },
+    {
+      "id": "Q122",
+      "number": 122,
+      "section": "Q",
+      "label": "Cherchez-vous un financement long terme pour renforcer les fonds propres ou la structure financière de l’entreprise ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q122",
+      "help": ""
+    },
+    {
+      "id": "Q123",
+      "number": 123,
+      "section": "Q",
+      "label": "Pouvez-vous mobiliser au moins 2 000 000 DH de fonds propres pour ce besoin ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q123",
+      "help": ""
+    },
+    {
+      "id": "Q124",
+      "number": 124,
+      "section": "Q",
+      "label": "Le montant total du projet d’investissement est-il compris entre 1 et 50 millions DH ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q124",
+      "help": ""
+    },
+    {
+      "id": "Q125",
+      "number": 125,
+      "section": "Q",
+      "label": "Le projet d’investissement atteindra-t-il 50 millions DH ou plus ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q125",
+      "help": ""
+    },
+    {
+      "id": "Q126",
+      "number": 126,
+      "section": "Q",
+      "label": "Le projet prévoit-il la création d’au moins 50 emplois stables ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q126",
+      "help": ""
+    },
+    {
+      "id": "Q127",
+      "number": 127,
+      "section": "Q",
+      "label": "Le projet prévoit-il la création d’au moins 150 emplois stables ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Non concerné"
+      ],
+      "column": "Q127",
+      "help": ""
+    },
+    {
+      "id": "Q128",
+      "number": 128,
+      "section": "R",
+      "label": "Avez-vous besoin d’aide pour finaliser le business plan ou les prévisions financières ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q128",
+      "help": ""
+    },
+    {
+      "id": "Q129",
+      "number": 129,
+      "section": "R",
+      "label": "Avez-vous besoin d’un accompagnement pour le recrutement ou la formation de salariés ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q129",
+      "help": ""
+    },
+    {
+      "id": "Q130",
+      "number": 130,
+      "section": "R",
+      "label": "Prévoyez-vous de recruter dans les 24 prochains mois ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q130",
+      "help": ""
+    },
+    {
+      "id": "Q131",
+      "number": 131,
+      "section": "R",
+      "label": "Avez-vous besoin d’un accompagnement pour la digitalisation, la certification ou la mise aux normes ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q131",
+      "help": ""
+    },
+    {
+      "id": "Q132",
+      "number": 132,
+      "section": "R",
+      "label": "Avez-vous besoin d’un accompagnement à l’export ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "column": "Q132",
+      "help": ""
+    },
+    {
+      "id": "Q133",
+      "number": 133,
+      "section": "S",
+      "label": "Quels documents sont déjà disponibles ?",
+      "type": "multi",
+      "options": [
+        "CIN / pièce d’identité",
+        "Statuts",
+        "Registre de commerce / attestation AE",
+        "Identifiant fiscal",
+        "Attestation CNSS",
+        "Bilans / comptes annuels",
+        "Relevés bancaires",
+        "Business plan",
+        "Étude de faisabilité",
+        "Prévisions financières",
+        "Devis / factures proforma",
+        "Contrats / bons de commande",
+        "Preuve de l’apport personnel",
+        "Titres de propriété / documents des garanties",
+        "Autorisations / agréments",
+        "Aucun dossier complet pour l’instant"
+      ],
+      "column": "Q133",
+      "help": ""
+    },
+    {
+      "id": "Q134",
+      "number": 134,
+      "section": "S",
+      "label": "Le dossier peut-il être complété rapidement si un organisme demande des pièces supplémentaires ?",
+      "type": "single",
+      "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ],
+      "column": "Q134",
+      "help": ""
+    }
+  ]
+}

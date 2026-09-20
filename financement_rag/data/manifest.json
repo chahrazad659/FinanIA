@@ -1,0 +1,25 @@
+{
+  "edition": "2025-12",
+  "pdf_name": "Kit de l’accompagnement de l’Entreprise-decembre-2025 (3).pdf",
+  "pdf_sha256": "f5cbf99c8138b4933caa45018858a4d743f9acb66d74dd90b86844c6d9ee954a",
+  "page_count": 96,
+  "program_count": 99,
+  "question_count": 134,
+  "synthetic_profile_count": 10000,
+  "catalog_built_at": "2026-09-20",
+  "current_availability_verified": false,
+  "sources": [
+    {
+      "file": "Questionnaire.docx",
+      "sha256": "22b4046d4869814a681d78a15961c2a0f523e35252578ed30bec6c4b84627c49"
+    },
+    {
+      "file": "Questionnaire_10000_users_synthetiques.xlsx",
+      "sha256": "2fe311abc1662d470d641ecea1fbc373d27b6e607500ac4477838ef0ba8ef042"
+    },
+    {
+      "file": "Kit de l’accompagnement de l’Entreprise-decembre-2025 (3).pdf",
+      "sha256": "f5cbf99c8138b4933caa45018858a4d743f9acb66d74dd90b86844c6d9ee954a"
+    }
+  ]
+}

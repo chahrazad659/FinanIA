@@ -1,0 +1,31 @@
+{
+  "source_title": "Kit de l’accompagnement de l’Entreprise - Edition Décembre 2025",
+  "source_file": "Kit de l’accompagnement de l’Entreprise-decembre-2025 (3).pdf",
+  "page_count": 96,
+  "extracted_characters": 102090,
+  "program_count": 99,
+  "catalog_scope": "Fiches de programmes, mécanismes de financement, fonds et clubs, pages 8 à 81. Les annuaires institutionnels pages 83 à 94 ne sont pas des programmes et sont exclus.",
+  "mostly_empty_extracted_pages": [
+    2,
+    3,
+    6,
+    79,
+    95
+  ],
+  "visually_checked_pages": [
+    30,
+    61,
+    62,
+    75,
+    79
+  ],
+  "source_caveats": [
+    "Ce corpus reflète le kit de décembre 2025 ; il ne vérifie ni disponibilité, ni modification, ni ouverture actuelle des appels.",
+    "Les pages 30, 61, 62, 75 comportent des tableaux dont l’ordre du texte extrait mélange les colonnes ; les lignes du catalogue ont été reconstruites et vérifiées sur les rendus.",
+    "La page 79 est une photographie décorative, confirmée visuellement ; les pages de couverture, sommaire, titre de section et annuaire ne sont pas transformées en programmes.",
+    "Upline Investments Fund et Moussahama II se répètent aux pages 63 et 64 ; leurs fiches sont fusionnées.",
+    "Les montants des lignes de financement étrangères désignent parfois la taille totale de la ligne et non le montant accessible par bénéficiaire.",
+    "Les structures d’accompagnement des pages 93 et 94 sont des annuaires de noms ; aucune condition ni offre individuelle ne doit être inventée.",
+    "Les cas de recherche sont des tests illustratifs rédigés manuellement, avec noms et intentions explicites ; ils ne mesurent pas la pertinence des recommandations sur les 10000 profils synthétiques."
+  ]
+}
